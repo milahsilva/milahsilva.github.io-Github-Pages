@@ -1,0 +1,97 @@
+#body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  transition: 0.5s;
+}
+
+/* Dark / Light Mode */
+#darkmode,
+#lightmode {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+}
+
+#darkmode:hover,
+#lightmode:hover {
+  transform: scale(1.1);
+}
+
+/* Text */
+#text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Poengteller */
+#poeng1,
+#poeng2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#pluss1,
+#minus1,
+#nullstill,
+#pluss2,
+#minus2,
+#nullstill2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: black;
+  padding: 8px 15px;
+  margin: 4px;
+  border-radius: 8px;
+}
+#pluss1:hover,
+#minus1:hover,
+#nullstill:hover,
+#pluss2:hover,
+#minus2:hover,
+#nullstill2:hover {
+  background-color: #cccccc;
+}
+
+/* Tilfeldig sitat */
+#sitat {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 30px;
+}
+#sitatKnapp {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Humør */
+#glad,
+#trist,
+#rolig {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+#glad:hover,
+#trist:hover,
+#rolig:hover {
+  transform: scale(1.05);
+}
+#humorText {
+  font-size: 18px;
+  font-weight: bold;
+}
